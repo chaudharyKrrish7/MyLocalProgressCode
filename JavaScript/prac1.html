@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        #sub1{
+            color: yellow;
+        }
+        #con{
+            background: green;
+            height: 400px;
+            width: 400px;
+            position: relative;
+
+        }
+        #anm{
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <a id="as" href="">linkdem</a>
+        <p id="sub1">hello</p>
+        <p id="sub2">Krrish</p>
+        <p id="sub3">Chaudhary</p>
+    </div>
+
+
+
+    <form action="" onsubmit="  valForm()" name = "form" >
+        name : <input type="text" name="fname" id="fn">
+        <textarea name="" id="" required></textarea>
+        <input type="submit" value="Submit" >
+    </form>
+
+
+    <button id="btnred" onclick="document.getElementById('btnred').style.color = 'red'">turn me red</button>
+
+
+    <!-- dom animations -->
+    <button onclick="move()">move the box</button>
+    <div id="con">
+        <div id="anm">
+
+        </div>
+    </div>
+    <button onclick="moveB()">move the box back</button>
+</body>
+<script src="27_domOne.js"></script>
+</html>

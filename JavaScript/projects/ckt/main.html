@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        img{
+            align-items: center;
+        }
+        .btnmid{
+            text-align: center;
+        }
+        button{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 20px;
+        }
+        button:hover{
+            color: black;
+            background-color: yellow;
+        }
+        .img{
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="img"><img id="img" src="off.jpg" style="width:300px"><br></div><br>
+    <div class="btnmid">
+    <button onclick="document.getElementById('img').src='on.jpg' ">circuit on</button><br><br>
+    <button onclick="document.getElementById('img').src='off.jpg'">circuit off</button>
+    </div>
+</body>
+</html>
